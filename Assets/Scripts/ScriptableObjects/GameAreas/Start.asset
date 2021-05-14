@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6092a11ec77a3e419235962243f2b69, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  description: You are startled awake by a loud THUMP! You open your eyes, and try
+    and look around. You can't move your head, arms, or legs. You are stuck! Panic
+    is setting in your eyes begin to scan your enclosure and room just beyond. You
+    are having a hard time processing what is going on. You have no idea how you
+    got here. You ask yourself, "Where am I?"
+  areaName: Start
+  exits:
+  - keyString: huh
+    exitDescription: 'Inside a capsule. '
+    nextArea: {fileID: 11400000, guid: d81ea7588a5b4a7419150f9e30fec681, type: 2}
+  interactableObjectsInArea:
+  - {fileID: 11400000, guid: 823f184afc2083b4cbb8274b6474791b, type: 2}
